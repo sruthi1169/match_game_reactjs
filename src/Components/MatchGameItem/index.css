@@ -1,0 +1,21 @@
+.container-thumbnails-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 4px;
+}
+.thumbnail-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.thumbnail-image {
+  width: 50px;
+}
+@media (min-width: 500px) {
+  .thumbnail-image {
+    width: 100px;
+  }
+}

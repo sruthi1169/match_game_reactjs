@@ -1,0 +1,27 @@
+.container-tabItems {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.tab-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+}
+.tab-text {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: roboto;
+  margin: 0px;
+}
+@media (min-width: 500px) {
+  .tab-text {
+    font-size: 20px;
+  }
+}
+.activeTab {
+  border-bottom: 2px solid #fec653;
+}
